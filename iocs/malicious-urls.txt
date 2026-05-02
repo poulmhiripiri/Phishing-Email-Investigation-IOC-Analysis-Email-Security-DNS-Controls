@@ -1,0 +1,4 @@
+# Malicious/Suspicious URLs identified in the lab investigation
+# Review and redact before public use if required.
+
+http://bsq2.firiri.shop/Z05qblJpdzBPNlVWbzNVbVdaUUVRdlpUY2dWd25NQTgybVVJc0pjK3c0dm1kazBjZm9ENEQxSkM0aTVnOWtJcU1hRllvWlJYcDNsVG5GNDlWbUplVUE9PQ__

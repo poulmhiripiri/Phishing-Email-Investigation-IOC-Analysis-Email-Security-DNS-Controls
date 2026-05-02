@@ -1,0 +1,10 @@
+flowchart LR
+    A[Sender Mail Server] --> B[Recipient Mail Server]
+    B --> C{SPF Check}
+    B --> D{DKIM Check}
+    C --> E{DMARC Alignment}
+    D --> E
+    E --> F{DMARC Policy}
+    F -->|p=none| G[Deliver and Report]
+    F -->|p=quarantine| H[Quarantine or Junk]
+    F -->|p=reject| I[Reject Message]

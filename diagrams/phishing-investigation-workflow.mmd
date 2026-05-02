@@ -1,0 +1,13 @@
+flowchart TD
+    A[User Reports Suspicious Email] --> B[Preserve Original Email]
+    B --> C[Analyse Email Headers]
+    C --> D[Check From, Return-Path and Reply-To]
+    D --> E[Validate SPF, DKIM and DMARC]
+    E --> F[Extract URLs, Domains, IPs and Attachments]
+    F --> G[Threat Intelligence Enrichment]
+    G --> H[Sandbox Analysis]
+    H --> I[Risk Classification]
+    I --> J[Containment and Blocking]
+    J --> K[Search for Similar Emails]
+    K --> L[Document Findings]
+    L --> M[Recommend Preventive Controls]

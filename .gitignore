@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local notes
+*.tmp
+*.bak
+
+# Do not publish secrets
+.env
+*.key
+*.pem
+secrets.*

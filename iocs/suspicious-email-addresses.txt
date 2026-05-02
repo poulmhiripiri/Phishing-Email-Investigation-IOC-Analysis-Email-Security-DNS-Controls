@@ -1,0 +1,2 @@
+# Add suspicious sender, return-path or reply-to addresses here after redaction.
+# The investigation observed suspicious Reply-To manipulation using a Gmail account.

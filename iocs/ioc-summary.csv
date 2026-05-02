@@ -1,0 +1,7 @@
+IOC Type,Value,Source / Evidence,Classification,Recommended Action
+IP Address,137.184.186.12,Cisco Talos sender reputation evidence,Suspicious / poor reputation,Monitor or block where appropriate
+Domain,lvhht06-n57cit6yma-ue.a.run.app,URLScan evidence,Suspicious phishing infrastructure,Block and monitor
+Domain,bsq2.firiri.shop,Use Case 2 URL/domain evidence,Malicious / suspicious,"Block at DNS, proxy and email gateway"
+URL,http://bsq2.firiri.shop/Z05qblJpdzBPNlVWbzNVbVdaUUVRdlpUY2dWd25NQTgybVVJc0pjK3c0dm1kazBjZm9ENEQxSkM0aTVnOWtJcU1hRllvWlJYcDNsVG5GNDlWbUplVUE9PQ__,Use Case 2 URL evidence,Malicious / phishing,Block URL and search logs
+Email Authentication,SPF/DKIM/DMARC failed or missing,PhishTool and DNS evidence,High risk,"Implement SPF, DKIM and DMARC enforcement"
+Reply-To,Disposable Gmail Reply-To observed,Header analysis,Suspicious,Block if confirmed and investigate recipient interaction
