@@ -1,5 +1,0 @@
-Recommended GitHub Repository Title:
-Phishing Email Investigation, IOC Analysis & Email Security DNS Controls
-
-Recommended GitHub Description:
-SOC-style phishing investigation showing email header analysis, IOCs, malicious URLs, sandboxing, sender reputation, and DNS security controls including SPF, DKIM, DMARC and MX records. Includes AWS domain/DNS experience.
