@@ -1,2 +1,11 @@
-# Suspicious sender/origin infrastructure
+# Suspicious Sender / Origin Infrastructure
+
+## IP Address
 137.184.186.12
+
+## Research Context Notice
+This IP address was identified during a controlled phishing email investigation and IOC analysis exercise. It was used strictly for research and documentation purposes based on the intelligence available at the time of analysis.
+
+Please note that public IP addresses can be reassigned, repurposed, or allocated to different subscribers over time. Therefore, this IP should not be treated as permanently malicious without current validation from trusted threat intelligence sources.
+
+Before taking any blocking or enforcement action, the IP reputation should be rechecked using platforms such as VirusTotal, Cisco Talos, AbuseIPDB, Spamhaus, or the organisation’s internal threat intelligence tools.
